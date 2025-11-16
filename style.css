@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    padding: 1em 2em;
+    background: #1e1e1e;
+    color: whitesmoke;
+    font-family: system-ui;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 100dvh;
+}
+
+.wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.knowledge-container {
+    border: solid 2px dodgerblue;
+    border-radius: 10px;
+    padding: 1em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+    width: 100%;
+}
+
+.knowledge-container ul {
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.knowledge-container ul li {
+    text-align: center;
+    width: 10em;
+    background: rgb(63, 67, 140);
+    padding: .25em;
+    border-radius: 5px;
+}
